@@ -665,7 +665,7 @@ index of respective Lua reference manuals.")
 
     ;; main string syntax: bounded by ' or "
     (modify-syntax-entry ?\' "\"")
-    (modify-syntax-entry ?\" "\"")
+    (modify-syntax-entry ?\" "\"'")
 
     ;; single-character binary operators: punctuation
     (modify-syntax-entry ?+ ".")
